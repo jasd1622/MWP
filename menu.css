@@ -94,3 +94,11 @@ input,button,textarea,select{*font-size:100%;}
 
 
 /*-------------------------------*/
+.t{border: 1px solid #CCC;
+	border-collapse:collapse; 
+	border-spacing:20px;
+	width:720px;
+	
+}
+.t td{padding: 5px 5px 10px 5px; text-align: center; border: 1px solid #CCC;}
+#order{margin:40px 0 20px 0; }

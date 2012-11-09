@@ -31,7 +31,7 @@
 		</div>
 		<div id="content">		
 			<span class="head_content">
-				<h1>회원가입(구매자)</h1>
+				<h1>회원가입(판매자)</h1>
 			</span>
 			<div class="center_content">
 	<table class="t">
@@ -41,6 +41,11 @@
 				<td><input type="text" name="id"  maxlength="12"/>
 					<input type="button" value="중복조회" class="button"/>
 					<span>* 6~12자의 영문/숫자만 가능</span>
+				</td>
+			</tr>
+			<tr>
+				<th>상호명</th>
+				<td><input type="text" name="name"/>
 				</td>
 			</tr>
 			<tr>
@@ -67,16 +72,10 @@
 				</td>
 			</tr>
 			<tr>
-				<th>휴대전화</th>
+				<th>가게전화</th>
 				<td>
-					<select name="phone">
-					<option value="010">010</option>
-					<option value="011">011</option>
-					<option value="016">016</option>
-					<option value="017">017</option>
-					<option value="018">018</option>
-					<option value="019">019</option>
-					</select><span>-</span>
+					<input type="text" class="txt"/>
+					<span>-</span>
 					<input type="text" class="txt"/>
 					<span>-</span>
 					<input type="text" class="txt"/>

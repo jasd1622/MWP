@@ -87,10 +87,27 @@ input,button,textarea,select{*font-size:100%;}
 
 /* -- content -- */
 #content { overflow:auto; margin:50px;}
-.center_content{margin:0 auto;width:720px; }
+.center_content{margin:0 auto;width:720px;}
 
 /* -- footer -- */
 #footer { color:#000; text-align:center; padding: 20px;}
 
 
 /*-------------------------------*/
+.txt{
+	width:53px;
+}
+.t{
+	border-top:1px solid #CCC; border-collapse:collapse; 
+	border-spacing:20px;
+	width:720px;height:400px;
+	margin:40px 0 20px 0;
+}
+.t tr{border-bottom: 1px solid #CCC;}
+.t th{width:20%;background-color:#EEE;}
+.rb{
+	border-left:0;
+	border-right:0;
+}
+.center{margin:10px auto; }
+.center a{margin: 20px;}
